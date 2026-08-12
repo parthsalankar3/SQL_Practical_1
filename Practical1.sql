@@ -1,0 +1,17 @@
+-- create
+CREATE TABLE RBU (
+    empld INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    dept TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO RBU  VALUES (0001, 'John Doe', 'Sales');
+INSERT INTO RBU  VALUES (0002, 'kHUSHI', 'INDUSTRY EXECUTIVE');
+INSERT INTO RBU  VALUES (0003, 'sHARDUL', 'EXECUTIVE');
+
+-- fetch
+SELECT * FROM RBU WHERE dept = 'SMART';
+insert into rbu values (0004, 'Aalok', 'SMART');
+SELECT * FROM RBU WHERE dept = 'SMART';
+
